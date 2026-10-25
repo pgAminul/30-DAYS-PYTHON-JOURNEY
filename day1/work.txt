@@ -1,0 +1,59 @@
+Python Day 01 — Submission Checklist
+
+
+Part 1 — Coding Practice
+
+নিজের নাম print() দিয়ে দেখান
+
+দেশের নাম ও পছন্দের Programming Language দেখান
+
+250 + 350 যোগ করুন
+
+500 - 175 বিয়োগ করুন
+
+25 × 8 গুণ করুন
+
+100 ÷ 4 ভাগ করুন
+
+কোডে অন্তত ২টি Comment লিখুন
+
+Part 2 — Mini Quiz
+
+Python-এ Output দেখানোর function কোনটি?
+
+print("10" + "20") এর Output কী?
+
+Python-এ Comment কোন চিহ্ন দিয়ে শুরু হয়?
+
+print(2 \*\* 3) এর Output কত?
+
+Print("Hi") লিখলে কী ধরনের Error হতে পারে?
+
+Part 3 — Homework
+
+homework01.py নামে একটি ফাইল তৈরি করুন
+
+নিজের নাম, দেশ, Learning: Python এবং Course Duration দেখান
+
+100 + 200-এর ফলাফল দেখান
+
+শুরু ও শেষে সুন্দর Heading/Message দিন
+
+## Homework-এর Expected Output
+
+নিজের কোড দিয়ে নিচের মতো Output তৈরি করবেন।
+
+
+=========================
+MY FIRST PYTHON PROGRAM
+=========================
+
+Name: Aminul
+Country: Bangladesh
+Learning: Python
+Course Duration: 30 Days
+
+My First Calculation:
+100 + 200 = 300
+
+Thank you!

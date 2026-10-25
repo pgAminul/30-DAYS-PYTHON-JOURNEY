@@ -1,0 +1,35 @@
+Part 1 — Coding Assignments
+Assignment 1
+
+20 Marks
+
+Variables
+আপনার নাম, দেশ, বয়স এবং পছন্দের Programming Language—এই ৪টি তথ্য আলাদা Variable-এ রেখে print() করুন।
+
+Assignment 2
+
+20 Marks
+
+Data Types
+একটি String, Integer, Float ও Boolean Variable তৈরি করুন। type() দিয়ে প্রত্যেকটির Data Type দেখান।
+
+Assignment 3
+
+20 Marks
+
+Type Conversion
+a = "100" এবং b = "200" নিন। দুটি String-কে Integer বানিয়ে যোগফল 300 দেখান।
+
+Assignment 4
+
+20 Marks
+
+User Input
+input() দিয়ে ব্যবহারকারীর নাম ও বয়স নিন। তারপর তার নাম এবং ৫ বছর পর বয়স কত হবে দেখান।
+
+Assignment 5
+
+20 Marks
+
+Mini Project — Student Profile Generator
+input() দিয়ে Name, Age, Country ও Favorite Programming Language নিন। তারপর f-string দিয়ে সম্পূর্ণ Student Profile দেখান।

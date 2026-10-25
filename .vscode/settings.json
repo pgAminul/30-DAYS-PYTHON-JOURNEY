@@ -1,0 +1,11 @@
+
+{
+  "runOnSave.commands": [
+    {
+      "match": "\\.py$",
+      "command": "python \"${file}\"",
+      "runIn": "terminal",
+      "terminalReveal": "always"
+    }
+  ]
+}

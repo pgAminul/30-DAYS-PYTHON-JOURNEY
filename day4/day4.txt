@@ -1,0 +1,73 @@
+ FINAL ASSIGNMENTS — মোট ১০০ নম্বর
+============================================================
+
+Assignment 1 — Smart Age Checker (20 Marks) - বয়স Input নিন। - বয়স
+অনুযায়ী Child, Teenager, Adult বা Senior দেখান। - বয়স ০-এর নিচে হলে
+“Invalid Age” দেখান। - ক্যাটাগরিগুলোর বয়সসীমা কোডের আগে লিখে উল্লেখ করুন। -
+Boundary Value (যেমন বয়সসীমার ঠিক আগে/পরে) পরীক্ষা করুন।
+
+Assignment 2 — Grade Calculator (20 Marks) - ০–১০০-এর মধ্যে নম্বর Input
+নিন। - A+, A, B, C অথবা Fail নির্ধারণ করুন। - ০-এর নিচে বা ১০০-এর বেশি হলে
+“Invalid Marks” দেখান। - কোন নম্বর থেকে কোন Grade, নিজের ব্যবহৃত Grade
+Scale উল্লেখ করুন। - if…elif…else ব্যবহার করুন।
+
+Assignment 3 — Secure Login System (20 Marks) - Username ও Password
+Input নিন। - দুটো সঠিক হলে “Login Successful”। - Username ভুল হলে “Invalid
+Username”। - Username সঠিক কিন্তু Password ভুল হলে “Wrong Password”। -
+সঠিক/ভুল Credential দিয়ে Test করুন। - এটি শেখার জন্য সাধারণ Logic Exercise;
+বাস্তব Authentication নয়।
+
+Assignment 4 — ATM Withdrawal (20 Marks) - Balance এবং Withdrawal Amount
+Input নিন। - Withdrawal Amount অবশ্যই ০-এর বেশি হতে হবে। - Balance পর্যাপ্ত
+হতে হবে। - Withdrawal Amount ৫০০-এর গুণিতক হতে হবে। - সব শর্ত পূরণ হলে
+“Withdrawal Successful” দেখান। - শর্ত পূরণ না হলে উপযুক্ত Error Message
+দেখান। - সফল হলে Remaining Balance দেখান।
+
+Assignment 5 — Shopping Discount (20 Marks) - Total Bill Input নিন। -
+Bill >= 5000 হলে 20% Discount। - নাহলে Bill >= 2000 হলে 10% Discount। -
+অন্যথায় 0% Discount। - Discount Amount এবং Final Bill দুটোই দেখান। -
+Negative Bill গ্রহণ করবেন না। - হিসাবের সময় ভগ্নাংশ অকারণে বাদ দেবেন না।
+
+CUMULATIVE REVISION PROJECT — Day 1 থেকে Day 4
+============================================================
+
+Project Name: Smart Student Management System
+
+প্রোগ্রাম ব্যবহারকারীর কাছ থেকে নেবে: - Student Name - Student Age - তিনটি
+বিষয়ের Marks - Course Fee - Scholarship Status (Yes/No বা Boolean)
+
+প্রোগ্রামকে যা করতে হবে: 
+১) শিক্ষার্থীর পরিচয় সুন্দরভাবে দেখানো। 
+২) তিনটি বিষয়ের Total Marks বের করা। 
+৩) Average Marks বের করা। 
+৪) Average অনুযায়ী  Grade নির্ধারণ করা। 
+৫) Age এবং Grade অনুযায়ী Course Eligibility পরীক্ষা করা। 
+৬) Scholarship থাকলে Course Fee-এর 20% Discount দেওয়া। 
+৭) Final Course Fee হিসাব করা। 
+৮) পুরো Student Report Print করা। 
+৯) ভুল নম্বর (০-এর নিচে বা ১০০-এর বেশি) শনাক্ত করা। 
+১০) Negative Course Fee বা অবৈধ Age শনাক্ত করা।
+
+যে Day-এর বিষয় ব্যবহার করবেন: - Day 1: print(), Comments, Basic
+Calculations - Day 2: Variables, Data Types, Input, Type Conversion -
+Day 3: Arithmetic, Comparison, Logical Operators - Day 4: if, elif,
+else, Nested Conditions
+
+নমুনা Output:
+
+    ===== STUDENT REPORT =====
+    Name: Aminul
+    Age: 20
+    Total Marks: 240
+    Average Marks: 80.0
+    Grade: A+
+    Course Eligible: Yes
+    Course Fee: 5000
+    Scholarship: Yes
+    Discount: 1000
+    Final Fee: 4000
+    ==========================
+
+নোট: - Grade Scale এবং Eligibility-এর প্রয়োজনীয় নির্দিষ্ট সীমা/নিয়ম নিজে
+নির্ধারণ করে কোডের শুরুতে Comment হিসেবে লিখুন। - মোট নম্বর, গড়, Discount এবং
+Final Fee সঠিক হতে হবে। - অবৈধ Input পেলে ভুল ফলাফল দেখাবেন না।
