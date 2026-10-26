@@ -40,7 +40,7 @@ Topics may evolve as I learn, but my journey will include:
 | Day 2 | Variables & Data Types | Variables, `str`, `int`, `float`, `bool`, `type()`, Type Conversion, `input()`, f-string | ✅ Completed |
 | Day 3 | Python Operators | Arithmetic, Comparison, Logical Operators, Operator Precedence, Basic Calculator | ✅ Completed |
 | Day 4 | Conditional Statements | `if`, `elif`, `else`, Nested Conditions, Even/Odd, Grading System, Eligibility Checking | ✅ Completed 
-| Day 5 | Loops | `for`, `while`, `range()`, JavaScript Comparison, Cumulative Practice Project | 🔄 In Progress |
+| Day 5 | Loops | `for`, `while`, `range()`, JavaScript Comparison, Cumulative Practice Project | ✅ Completed |
 | Day 6–30 | Upcoming Topics | 🔄 In Loading | ⬜ Not Started |
 
 > I will replace the topics and statuses with my actual work as the journey continues.

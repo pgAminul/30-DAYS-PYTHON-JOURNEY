@@ -1,0 +1,37 @@
+Day 5 — Assignment (80 Marks)
+এখানে মোট ৫টি কাজ থাকবে। VS Code-এ নিজে কোড লিখবেন।
+
+Task 1: Number Printer — 15 Marks
+
+ইউজারের কাছ থেকে একটি সংখ্যা নিয়ে ১ থেকে সেই সংখ্যা পর্যন্ত সব সংখ্যা প্রিন্ট করুন। for loop ব্যবহার করবেন।
+
+Task 2: Multiplication Table — 15 Marks
+
+ইউজারের কাছ থেকে একটি সংখ্যা নিয়ে সেই সংখ্যার নামতা ১ থেকে ১০ পর্যন্ত দেখান।
+
+Task 3: Even/Odd Sum — 15 Marks
+
+১ থেকে ১০০ পর্যন্ত সব জোড় সংখ্যার যোগফল এবং সব বিজোড় সংখ্যার যোগফল আলাদাভাবে বের করুন।
+
+Task 4: Password Checker — 15 Marks
+
+সঠিক Password আগে থেকে সেট থাকবে। while loop ব্যবহার করে সঠিক Password না দেওয়া পর্যন্ত বারবার ইনপুট নিন। সঠিক হলে Access Granted দেখান।
+
+Task 5: Smart Savings Calculator — 20 Marks
+
+ইউজারের কাছ থেকে প্রতিদিনের সঞ্চয়ের পরিমাণ ও কতদিন সঞ্চয় করবেন তা নিন। Loop দিয়ে প্রতিদিনের মোট সঞ্চয় দেখান। শেষে মোট সঞ্চয় এবং RM 500 লক্ষ্যে পৌঁছেছে কি না দেখান।
+
+
+
+Smart Personal Finance & Student Tracker
+এই Project-এ Day 1 থেকে Day 5 পর্যন্ত শেখা সব বিষয় ব্যবহার করবেন।
+
+Project Requirements:
+1. ইউজারের নাম, বয়স এবং মাসিক আয় ইনপুট নিন।
+2. if/elif/else দিয়ে বয়স অনুযায়ী Adult/Minor নির্ধারণ করুন।
+3. ইউজারের মাসিক আয় থেকে খরচ বাদ দিয়ে Balance হিসাব করুন।
+4. for loop দিয়ে ৭ দিনের খরচ ইনপুট নিয়ে মোট ও গড় খরচ বের করুন।
+5. while loop দিয়ে একটি Menu System তৈরি করুন, যাতে ইউজার বারবার অপশন নির্বাচন করতে পারে।
+6. Menu-তে Profile, Expense Summary, Savings Status এবং Exit অপশন রাখুন।
+7. break দিয়ে Exit এবং continue দিয়ে প্রয়োজনে পরবর্তী iteration নিয়ন্ত্রণ করুন।
+8. f-string, variables, type conversion, operators এবং conditionals ব্যবহার করুন।
