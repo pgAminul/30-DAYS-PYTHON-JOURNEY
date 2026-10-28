@@ -32,32 +32,6 @@ Topics may evolve as I learn, but my journey will include:
 - Working with files
 - Practice problems and mini-projects
 
-## 🗓️ Daily Progress Tracker
-
-| Day | Focus | Topics Learned | Status |
-|---|---|---|---|
-| Day 1 | Python Fundamentals | `print()`, Comments, Basic Arithmetic, Output | ✅ Completed |
-| Day 2 | Variables & Data Types | Variables, `str`, `int`, `float`, `bool`, `type()`, Type Conversion, `input()`, f-string | ✅ Completed |
-| Day 3 | Python Operators | Arithmetic, Comparison, Logical Operators, Operator Precedence, Basic Calculator | ✅ Completed |
-| Day 4 | Conditional Statements | `if`, `elif`, `else`, Nested Conditions, Even/Odd, Grading System, Eligibility Checking | ✅ Completed 
-| Day 5 | Loops | `for`, `while`, `range()`, JavaScript Comparison, Cumulative Practice Project | ✅ Completed |
-| Day 6–30 | Upcoming Topics | 🔄 In Loading | ⬜ Next Class |
-
-> I will replace the topics and statuses with my actual work as the journey continues.
-
-## 📂 Repository Structure
-
-```text
-30-days-python-journey/
-├── Day-01/
-├── Day-02/
-├── Day-03/
-├── Day-04/
-├── Day-05/
-└── README.md
-```
-
-Each day's folder may contain my practice code, assignments, and notes. The structure will grow as I progress.
 
 ## 💡 My Learning Approach
 
