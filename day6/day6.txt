@@ -1,0 +1,79 @@
+Part 02 — Assignment (80 Marks)
+মোট চারটি Coding Task। প্রতিটি ২০ নম্বর।
+
+Task 1: Smart Calculator Function — 20 Marks
+
+calculate(a, b, operator) Function তৈরি করুন।
+
++, -, *, / Support করতে হবে। Division by zero এবং Invalid Operator Handle করতে হবে। Result return করতে হবে।
+
+
+
+
+Task 2: Student Result Analyzer — 20 Marks
+
+student_result(name, marks) Function তৈরি করুন।
+
+০–১০০ Marks Validate করুন। ৮০+ A+, ৭০–৭৯ A, ৬০–৬৯ B, ৫০–৫৯ C, ৪০–৪৯ D, ৪০-এর নিচে F। Function থেকে Grade Return করুন।
+
+
+
+
+Task 3: Salary & Savings Analyzer — 20 Marks
+
+analyze_finance(income, expense, savings_rate=10) Function তৈরি করুন।
+
+Balance, Savings Target এবং Savings Target পূরণের পর অবশিষ্ট অর্থ Calculate করুন। Income, Expense এবং Rate Validate করুন। একাধিক Value Return করুন।
+
+
+
+
+Task 4: Number Statistics — 20 Marks
+
+number_statistics(start, end) Function তৈরি করুন।
+
+নির্ধারিত Range-এর সব Even এবং Odd Number Count করুন। Even ও Odd Number-এর Sum Calculate করুন। for Loop ব্যবহার করে Results Return করুন। start > end হলে Invalid Range Handle করুন।
+
+
+====================================================================
+## Day 06 — Cumulative Revision Project
+### Project: Smart Shopping Management System
+
+আপনাকে একটি ছোট Shopping Management System তৈরি করতে হবে, যেখানে একজন Customer-এর নাম, বয়স ও বাজেট নেওয়ার পর তিনটি Product-এর নাম, দাম ও Quantity Input নিতে হবে। Program স্বয়ংক্রিয়ভাবে সব Product-এর মোট দাম হিসাব করবে।
+
+Customer-এর বয়স ১৮ বছরের কম হলে Shopping করতে পারবে না। মোট Bill RM 100 বা তার বেশি হলে 10% Discount দিতে হবে। Discount-এর পর Final Bill Customer-এর Budget-এর মধ্যে থাকলে `"Purchase Successful"`, অন্যথায় `"Insufficient Balance"` দেখাতে হবে।
+
+সব Calculation আলাদা Function দিয়ে করতে হবে। Function-এ Parameters, Default Parameter ও `return` ব্যবহার করতে হবে। তিনটি Product-এর জন্য `for` Loop এবং নতুন Customer-এর Shopping চালু রাখার জন্য `while` Loop ব্যবহার করবেন। Invalid Input Handle করতে হবে।
+
+Expected Output:
+
+===== SMART SHOPPING SYSTEM =====
+
+Customer: Aminul
+Age: 23
+Budget: RM 200
+
+Product 1: Mouse
+Price: RM 30
+Quantity: 2
+
+Product 2: Keyboard
+Price: RM 50
+Quantity: 1
+
+Product 3: Cable
+Price: RM 20
+Quantity: 1
+
+===== FINAL RECEIPT =====
+Customer: Aminul
+Subtotal: RM 130.00
+Discount: RM 13.00
+Final Bill: RM 117.00
+Remaining Balance: RM 83.00
+
+Status: Purchase Successful
+
+Continue Shopping? (yes/no):
+
+
