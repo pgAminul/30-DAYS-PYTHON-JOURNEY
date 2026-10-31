@@ -1,0 +1,39 @@
+Day 7 — Assignment (80 Marks)
+
+Task 1: Student List Manager
+
+পাঁচজন Student-এর নাম List-এ রাখবে। প্রথম, শেষ Student এবং মোট Student সংখ্যা Print করবে।
+
+Task 2: Shopping List
+
+শুরুতে তিনটি Product রাখবে। append(), insert(), remove() এবং pop() ব্যবহার করে List Update করবে।
+
+Task 3: Marks Analyzer
+
+পাঁচটি Subject-এর Marks List-এ রাখবে। Loop দিয়ে Total, Average, Highest ও Lowest Marks বের করবে। Hint: max() এবং min() ব্যবহার করতে পারো।
+
+Task 4: Tuple Explorer
+
+পাঁচটি Country-এর Tuple তৈরি করবে। প্রথম, শেষ, মোট সংখ্যা এবং প্রথম তিনটি Country Print করবে।
+
+Task 5: Number Filter Function
+
+filter_even(numbers) নামে Function তৈরি করবে। Input হিসেবে Number List নেবে এবং নতুন List-এ শুধু Even Numbers Return করবে।
+
+
+
+Day 7 — Cumulative Practice Project
+Mandatory • 0 Marks
+Project: Mini Student Result Tracker
+
+ছোট একটি Program তৈরি করবে যেখানে Day 1–7-এর বিষয়গুলো ব্যবহার হবে।
+
+Requirements:
+1. User থেকে Name ও Age Input নেবে।
+2. পাঁচটি Subject-এর Marks একটি List-এ রাখবে।
+3. Function দিয়ে Total ও Average Calculate করবে।
+4. if/else দিয়ে Pass/Fail নির্ধারণ করবে (প্রতিটি Subject-এ অন্তত 33)।
+5. Loop দিয়ে Subject-এর Marks Print করবে।
+6. একটি Tuple-এ Grade Labels রাখবে।
+7. Final Result সুন্দরভাবে Print করবে।
+সময় বাঁচাতে: Database, File Handling বা বড় Menu System লাগবে না।
