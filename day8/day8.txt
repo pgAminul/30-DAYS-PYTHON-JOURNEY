@@ -1,0 +1,50 @@
+Task 1: Student Profile Manager
+15 Marks
+
+একটি student Dictionary তৈরি করবে, যেখানে থাকবে name, age, course, marks।
+
+Requirements:
+- User Input থেকে তথ্য নেবে।
+- সব Key–Value Print করবে।
+- marks Update করবে।
+- Marks 40 বা বেশি হলে Pass, অন্যথায় Fail।
+- get() অন্তত একবার ব্যবহার করবে।
+
+Task 2: Product Inventory
+15 Marks
+
+তিনটি Product-এর Price নিয়ে Dictionary তৈরি করবে।
+
+Requirements:
+- Product Name দিয়ে Price Search।
+- Product না থাকলে Product Not Found।
+- নতুন Product Add।
+- যেকোনো Product-এর Price Update।
+- Loop দিয়ে সব Product ও Price Print।
+
+Task 3: Unique Number Analyzer
+15 Marks
+
+একটি List দেওয়া হলো:
+numbers = [10, 20, 10, 30, 40, 20, 50]
+
+
+
+Requirements:
+- Set ব্যবহার করে Duplicate Remove।
+- Unique Number Count।
+- Unique Numbers-এর Sum।
+- সর্বোচ্চ ও সর্বনিম্ন Number।
+- Final Result Print।
+
+Task 4: Student Marks Tracker
+15 Marks
+
+তিনজন Student-এর Name ও Marks একটি Dictionary-তে রাখবে।
+
+Requirements:
+- Function তৈরি করবে analyze_students(students)।
+- Loop দিয়ে প্রত্যেক Student-এর Marks দেখাবে।
+- Highest Marks পাওয়া Student-এর Name দেখাবে।
+- Average Marks Calculate করবে।
+- Function থেকে Average Return করবে।
