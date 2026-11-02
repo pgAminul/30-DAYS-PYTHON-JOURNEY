@@ -1,0 +1,74 @@
+
+Task 1 — Smart Name Formatter
+15 Marks
+
+User-এর কাছ থেকে Full Name Input নিতে হবে।
+
+Requirements:
+- দুই পাশের Extra Space Remove করবে।
+- পুরো Name Title Case করবে।
+- Total Character Count দেখাবে (Space সহ, Format করার পর)।
+- First এবং Last Character দেখাবে।
+- Name Reverse করে দেখাবে।
+Hint: strip(), title(), len(), Indexing এবং Slicing।
+
+Task 2 — Username Validator
+15 Marks
+
+একটি Username Input নিয়ে Validation করবে।
+
+Requirements:
+- Username-এর Length 5–15 হতে হবে।
+- শুধুমাত্র Letters এবং Numbers থাকতে পারবে।
+- Space বা Special Character গ্রহণ করবে না।
+- Valid হলে Valid Username, না হলে কারণ দেখাবে।
+Hint: len(), isalnum(), if-elif-else।
+
+Task 3 — Email Domain Extractor
+15 Marks
+
+একটি Email Input নিতে হবে।
+
+Example: aminul@gmail.com
+
+Requirements:
+- Email-এ ঠিক একটি @ থাকতে হবে।
+- @-এর আগে Username এবং পরে Domain থাকতে হবে।
+- Username ও Domain খালি হতে পারবে না।
+- Domain-এর মধ্যে . থাকতে হবে এবং Dot-এর দুই পাশে Text থাকতে হবে।
+- Username এবং Domain আলাদাভাবে Print করবে।
+Hint: count(), split(), find() এবং Condition।
+
+Task 4 — Word Analyzer
+15 Marks
+
+User-এর কাছ থেকে একটি Sentence Input নেবে।
+
+Requirements:
+- Sentence-এর Word Count দেখাবে।
+- "python" শব্দটি কতবার আছে, Case-insensitive ভাবে গণনা করবে।
+- সবচেয়ে বড় Word দেখাবে।
+- সব Word Uppercase করে Print করবে।
+Hint: split(), lower(), len(), for Loop।
+
+Task 5 — Smart Text Processing System
+20 Marks
+
+একটি Menu-driven Program তৈরি করবে।
+
+Menu Options:
+1. Reverse Text
+2. Count Vowels
+3. Replace Word
+4. Check Palindrome
+5. Exit
+Requirements:
+- User একটি Text Input দেবে।
+- Menu থেকে Operation Select করবে।
+- Function ব্যবহার করে Operation Execute করবে।
+- Vowels (a,e,i,o,u) Case-insensitive ভাবে Count করবে।
+- Palindrome Check-এর সময় Case ও Space Ignore করবে।
+- Invalid Menu Option Handle করবে।
+- Exit না করা পর্যন্ত Menu চলবে।
+Hint: while, def, return, replace(), lower(), Slicing।
+
