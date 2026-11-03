@@ -1,0 +1,27 @@
+💻 Day 10 — Assignment (80 Marks)
+আজ ৪টি Coding Task। প্রতিটির মান ২০।
+
+Task 1 — Student File Creator
+20 Marks
+User থেকে Name, Age এবং City input নেবে। student.txt নামে ফাইল তৈরি করে তিনটি তথ্য আলাদা লাইনে সংরক্ষণ করবে। এরপর ফাইল পড়ে তথ্যগুলো print করবে।
+
+
+
+
+Task 2 — Daily Expense Tracker
+20 Marks
+User থেকে একটি Expense Name ও Amount input নেবে। expenses.txt ফাইলে তথ্য যোগ করবে। আগের Expense মুছে ফেলা যাবে না। এরপর ফাইলের সব Expense দেখাবে।
+
+
+
+
+Task 3 — Student Names Reader
+20 Marks
+names.txt ফাইলে কমপক্ষে ৫টি নাম আলাদা লাইনে সংরক্ষণ করবে। তারপর ফাইল থেকে নামগুলো পড়ে for loop দিয়ে প্রতিটি নাম সিরিয়াল নম্বরসহ print করবে। শেষে মোট কতজন Student আছে দেখাবে।
+
+
+
+
+Task 4 — Safe File Reader
+20 Marks
+User থেকে একটি filename input নেবে। ফাইল থাকলে তার সব তথ্য দেখাবে। ফাইল না থাকলে "File not found!" দেখাবে। প্রোগ্রাম যেন crash না করে, সেজন্য try/except ব্যবহার করবে।
