@@ -1,0 +1,72 @@
+Python Day 1–10: All-in-One Revision Project
+Project: Smart Personal Finance Manager
+Day 1–10
+সময়: ৪৫–৬০ মিনিট
+Optional · 0 Marks
+
+একটাই ছোট প্রজেক্ট বানাবে, যার মধ্যে Day 1 থেকে Day 10 পর্যন্ত শেখা সব গুরুত্বপূর্ণ বিষয় ব্যবহার করতে হবে।
+🎯 Project Requirements
+একটি Personal Finance Manager তৈরি করবে, যেখানে ব্যবহারকারী নিজের আয়, খরচ ও সঞ্চয়ের হিসাব রাখতে পারবে।
+
+Step 1 — User Profile
+
+ব্যবহারকারীর Name, Age এবং Monthly Income ইনপুট নেবে। বয়স ও আয় Validate করবে। ভুল Data Type দিলে try-except দিয়ে Handle করবে।
+
+Step 2 — Expense Tracker
+
+ব্যবহারকারী একটি List-এ ৫টি খরচ যোগ করবে। প্রতিটি খরচের Category থাকবে (Food, Rent, Shopping ইত্যাদি)। Dictionary ব্যবহার করে Category ও Amount সংরক্ষণ করবে।
+
+Step 3 — Finance Calculator
+
+Function ব্যবহার করে হিসাব করবে:
+- Total Expense
+- Remaining Balance
+- Average Expense
+- Highest এবং Lowest Expense
+Balance Negative হলে Warning দেখাবে। অন্যথায় Savings Status দেখাবে।
+
+
+
+সব তথ্য finance.txt ফাইলে Save করবে। পরে File Read করে আগের Report দেখাবে। File না থাকলে try-except দিয়ে Error Handle করবে।
+
+Step 6 — Main Menu
+===== PERSONAL FINANCE MANAGER =====
+
+1. Add Expense
+2. View Expenses
+3. Search Category
+4. Show Finance Report
+5. Save Report
+6. Read Saved Report
+7. Exit
+
+Choose Option:
+
+
+while Loop দিয়ে Menu চালাবে। Exit না করা পর্যন্ত Program চলবে।
+Day 1–10 Revision Checklist
+Revision Coverage
+
+0/10
+
+
+
+Day 1 — Print, Comments, Arithmetic
+
+Day 2 — Variables, Data Types, Input, Type Conversion
+
+Day 3 — Operators ও Comparison
+
+Day 4 — Conditions (if/elif/else)
+
+Day 5 — for ও while Loops
+
+Day 6 — Functions ও return
+
+Day 7 — List ও Tuple
+
+Day 8 — Dictionary ও Set
+
+Day 9 — String Methods
+
+Day 10 — File Handling ও Exception Handling
