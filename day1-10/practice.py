@@ -42,7 +42,7 @@ def finance_calculator():
     message = f"total expense is {total_expense}\n remining balance is {remining}\n average is {average}\n Heighst Expense is {heighst}\n Lowest expense {lowest}"
 
     try:
-        with open ("finance.txt", "a") as file:
+        with open ("day1-10/finance.txt", "a") as file:
          file.write(f"{category_list} \n{message}")
         with open ("day1-10/finance.txt" , "r") as readFile:
             readFile.read()
