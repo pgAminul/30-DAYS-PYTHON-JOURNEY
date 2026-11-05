@@ -1,6 +1,6 @@
 try:
-    # name = input("Enter Your Name").strip()
-    # age = int(input("Enter Your Age"))
+    name = input("Enter Your Name").strip()
+    age = int(input("Enter Your Age"))
     monthly_income = int(input("Enter Your Monthly income"))
 except ValueError:
     print("Age and Monthly income Give Number")

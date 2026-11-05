@@ -1,0 +1,67 @@
+Day 11 — Assignment (80 Marks)
+Task 1 — Safe Division Calculator (20 Marks)
+এমন একটি Calculator তৈরি করো যা দুটি Number Input নেবে।
+
+Requirements:
+1. User থেকে দুটি Number নিতে হবে।
+2. দুটি Number ভাগ করতে হবে।
+3. ValueError Handle করতে হবে।
+4. ZeroDivisionError Handle করতে হবে।
+5. else ব্যবহার করে Successful Result Print করতে হবে।
+6. finally দিয়ে "Calculation Completed" Print করতে হবে।
+Example:
+First Number: 10
+Second Number: 0
+
+Cannot divide by zero
+Calculation Completed
+
+
+Task 2 — Smart Age Validator (20 Marks)
+একটি check_age(age) Function তৈরি করো।
+
+Requirements:
+1. User থেকে Age Input নিতে হবে।
+2. Age Negative হলে raise ValueError করতে হবে।
+3. Age 0–17 হলে "Minor" Return করতে হবে।
+4. Age 18 বা বেশি হলে "Adult" Return করতে হবে।
+5. try-except দিয়ে Invalid Input Handle করতে হবে।
+6. Valid Result Print করতে হবে।
+Example:
+Enter Age: -5
+Error: Age cannot be negative
+
+
+Task 3 — Safe Student File Reader (20 Marks)
+Day 10-এর File Handling ব্যবহার করে একটি Program তৈরি করো।
+
+Requirements:
+1. User থেকে File Name নিতে হবে।
+2. with open() ব্যবহার করে File Read করতে হবে।
+3. File না থাকলে FileNotFoundError Handle করতে হবে।
+4. File Read সফল হলে else দিয়ে Content Print করতে হবে।
+5. finally দিয়ে "File Operation Finished" Print করতে হবে।
+Example:
+Enter File Name: abc.txt
+
+File not found
+File Operation Finished
+
+
+Task 4 — Student Marks Validator (20 Marks)
+একটি validate_marks(marks) Function তৈরি করো।
+
+Requirements:
+1. User থেকে Student Name নিতে হবে।
+2. User থেকে Marks Input নিতে হবে।
+3. Marks 0-এর নিচে বা 100-এর বেশি হলে raise ValueError করতে হবে।
+4. Marks 33 বা বেশি হলে "Pass" Return করতে হবে।
+5. Marks 33-এর নিচে হলে "Fail" Return করতে হবে।
+6. try-except দিয়ে Invalid Number এবং Invalid Marks Handle করতে হবে।
+7. Valid হলে Student Name, Marks এবং Result Print করতে হবে।
+Example:
+Student Name: Rahim
+Marks: 105
+
+Error: Marks must be between 0 and 100
+
