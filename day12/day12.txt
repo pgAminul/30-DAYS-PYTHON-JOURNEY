@@ -1,0 +1,41 @@
+Day 12 — Assignment (80 Marks)
+প্রতিটি Task-এর জন্য ২০ নম্বর। নিচে শুধু Requirement ও Hint দেওয়া হলো, সম্পূর্ণ Solution নয়।
+Task 1 — Smart Math Calculator
+20 Marks
+
+User থেকে একটি Number Input নেবে। math Module ব্যবহার করে Square Root, Ceil ও Floor দেখাবে। Negative Number ও Invalid Input-এর জন্য Exception Handling করবে।
+
+Hint: math.sqrt(), math.ceil(), math.floor(), try-except, raise ValueError।
+
+Grading: Import 3, Calculation 9, Validation 5, Output 3
+
+Task 2 — Lucky Number Guessing
+20 Marks
+
+random Module দিয়ে ১–১০ পর্যন্ত একটি Number তৈরি করবে। User সর্বোচ্চ ৩ বার Guess করতে পারবে। সঠিক হলে You Win, ভুল হলে Try Again এবং সুযোগ শেষ হলে Game Over দেখাবে। Invalid Input সামলাবে।
+
+Hint: random.randint(), for, break, try-except।
+
+Grading: Random 4, Guess Logic 8, Attempts 4, Validation 4
+
+Task 3 — Date & Time Reporter
+20 Marks
+
+datetime Module ব্যবহার করে Current Date, Time, Year, Month, Day ও Weekday দেখাবে। Date Format হবে DD-MM-YYYY এবং Time Format HH:MM:SS।
+
+Hint: datetime.now(), .year, .month, .day, .strftime()।
+
+Grading: Import 3, Date Components 7, Formatting 7, Output 3
+
+Task 4 — Custom Student Result Module
+20 Marks
+
+দুটি File তৈরি করবে: student_utils.py ও main.py।
+
+student_utils.py-তে calculate_grade(marks) Function থাকবে, যা Marks ৩৩ বা বেশি হলে "Pass", অন্যথায় "Fail" Return করবে। get_average(marks_list) Function Average Return করবে।
+
+main.py-তে Student Name ও ৩টি Subject-এর Marks Input নিয়ে Module-এর Function ব্যবহার করে প্রতিটি Subject-এর Result এবং Overall Average দেখাবে। Marks অবশ্যই ০–১০০-এর মধ্যে হতে হবে; Invalid Input-এ Exception Handling করবে।
+
+Hint: from student_utils import ..., return, list, for, raise, try-except।
+
+Grading: Module Structure 5, Functions 7, Validation 5, Output 3
