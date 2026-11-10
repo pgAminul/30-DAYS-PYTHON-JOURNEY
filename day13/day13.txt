@@ -1,0 +1,98 @@
+
+Day 13 — Coding Assignment
+4 Tasks × 20 Marks
+
+80 Marks
+
+আজকের Assignment-এর Code আমি লিখে দেব না। Requirements, Expected Output এবং প্রয়োজনীয় Hints দেব।
+Task 1 — Student Profile System
+20 Marks
+
+একটি Student Class তৈরি করবে।
+
+Requirements:
+- Constructor-এ name, age, city গ্রহণ করবে।
+- Instance Attributes-এ Data সংরক্ষণ করবে।
+- show_profile() Method তৈরি করবে।
+- দুটি Student Object তৈরি করে Profile দেখাবে।
+Expected Output (উদাহরণ):
+Name: Amin
+Age: 20
+City: Dhaka
+
+
+Hint: __init__(), self, return বা print() ব্যবহার করতে পারো।
+
+Task 2 — Bank Account System
+20 Marks
+
+একটি BankAccount Class তৈরি করবে।
+
+Requirements:
+- Constructor-এ owner, balance থাকবে।
+- deposit(amount) Method দিয়ে টাকা যোগ করবে।
+- withdraw(amount) Method দিয়ে টাকা তুলবে।
+- পর্যাপ্ত Balance না থাকলে Insufficient Balance দেখাবে।
+- শূন্য বা Negative Amount গ্রহণ করবে না।
+- show_balance() Method থাকবে।
+Expected Output (উদাহরণ):
+Initial Balance: 1000
+Deposit: 500
+Withdraw: 300
+Current Balance: 1200
+
+
+Hint: Method-এর মধ্যে self.balance Update করতে হবে।
+
+Task 3 — Employee Salary Manager
+20 Marks
+
+একটি Employee Class তৈরি করবে।
+
+Requirements:
+- Constructor-এ name, salary থাকবে।
+- increase_salary(percent) Method তৈরি করবে।
+- Percentage অনুযায়ী Salary বাড়াবে।
+- Negative Percentage গ্রহণ করবে না।
+- show_details() Method দিয়ে Employee-এর তথ্য দেখাবে।
+- দুটি Employee Object তৈরি করবে।
+Expected Output (উদাহরণ):
+Employee: Rahim
+Old Salary: 3000
+Increase: 10%
+New Salary: 3300
+
+
+Hint: Salary Increase = Salary × Percentage / 100
+
+Task 4 — Smart Student Result System
+20 Marks
+
+একটি StudentResult Class তৈরি করবে।
+
+Requirements:
+- Constructor-এ name, python_marks, math_marks, english_marks থাকবে।
+- প্রতিটি Marks 0–100-এর মধ্যে Validate করবে।
+- calculate_total() Method দিয়ে Total বের করবে।
+- calculate_average() Method দিয়ে Average বের করবে।
+- get_grade() Method তৈরি করবে।
+- যেকোনো বিষয়ে 40-এর কম হলে Grade F হবে।
+- show_result() Method দিয়ে সম্পূর্ণ Result দেখাবে।
+Grade System:
+Average	Grade
+80–100	A+
+70–79.99	A
+60–69.99	B
+50–59.99	C
+40–49.99	D
+Below 40	F
+
+Expected Output (উদাহরণ):
+Student: Amin
+Total: 255
+Average: 85.00
+Grade: A+
+Result: Pass
+
+
+Hint: if-elif-else, Instance Methods এবং return ব্যবহার করবে।
