@@ -1,0 +1,93 @@
+Day 14 — Official Assignment
+
+Task 1 — Student & Teacher Management
+Inheritance + super() | 20 Marks
+
+একটি Person Parent Class তৈরি করবে। এরপর Student এবং Teacher নামে দুটি Child Class তৈরি করবে।
+
+Requirements:
+1. Person-এর name, age Attribute থাকবে।
+2. introduce() Method দিয়ে নাম ও বয়স দেখাবে।
+3. Student Class-এ অতিরিক্ত grade থাকবে।
+4. Teacher Class-এ অতিরিক্ত subject থাকবে।
+5. Child Constructor-এ super() ব্যবহার করবে।
+6. Student এবং Teacher-এর Object তৈরি করে তথ্য দেখাবে।
+Expected Output (Example):
+Name: Aminul
+Age: 22
+Grade: A
+
+Name: Rahim
+Age: 35
+Subject: Mathematics
+
+
+Task 2 — Secure Bank Account
+Encapsulation | 20 Marks
+
+একটি BankAccount Class তৈরি করবে।
+
+Requirements:
+1. account_holder Public Attribute হবে।
+2. __balance Name-mangled Attribute হবে।
+3. deposit(amount) Method থাকবে।
+4. withdraw(amount) Method থাকবে।
+5. Negative বা Zero Deposit/Withdrawal Reject করবে।
+6. Balance-এর বেশি Withdrawal Reject করবে।
+7. get_balance() দিয়ে Current Balance Return করবে।
+Expected Output (Example):
+Account Holder: Aminul
+Initial Balance: 5000
+Deposited: 2000
+Withdrawn: 1500
+Current Balance: 5500
+
+
+Task 3 — Employee Salary System
+Inheritance + Method Overriding | 20 Marks
+
+একটি Employee Parent Class এবং Manager, Developer Child Class তৈরি করবে।
+
+Requirements:
+1. Employee-এ name, salary থাকবে।
+2. Parent Class-এ calculate_bonus() Method থাকবে, যা Base Salary-এর 5% Return করবে।
+3. Manager Class-এ Override করে Bonus 20% করবে।
+4. Developer Class-এ Override করে Bonus 10% করবে।
+5. Child Class-গুলো Parent Constructor Reuse করবে।
+6. প্রত্যেকের Salary, Bonus এবং Total Salary দেখাবে।
+Expected Output (Example):
+Manager: Rahim
+Salary: 50000
+Bonus: 10000
+Total: 60000
+
+Developer: Aminul
+Salary: 40000
+Bonus: 4000
+Total: 44000
+
+
+Task 4 — Smart Shape Calculator
+Polymorphism + Method Overriding | 20 Marks
+
+একটি Shape Parent Class এবং Rectangle, Circle, Square Child Class তৈরি করবে।
+
+Requirements:
+1. Parent Class-এ area() Method থাকবে, যা NotImplementedError Raise করবে।
+2. Rectangle-এর Length এবং Width থাকবে।
+3. Circle-এর Radius থাকবে।
+4. Square-এর Side থাকবে।
+5. তিনটি Child Class-এ area() Override করবে।
+6. সব Shape Object একটি List-এ রেখে Loop দিয়ে Area বের করবে।
+7. Dimension শূন্য বা Negative হলে Reject করবে।
+Formula:
+- Rectangle = Length × Width
+- Circle = π × Radius²
+- Square = Side²
+Expected Output (Example):
+Rectangle Area: 50
+Circle Area: 78.54
+Square Area: 36
+
+
+Circle-এর জন্য math.pi ব্যবহার করতে পারবে। Output দুই Decimal Place পর্যন্ত দেখাতে পারো।
