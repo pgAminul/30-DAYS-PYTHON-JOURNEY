@@ -34,14 +34,14 @@ class BankAccount:
     def Account_holder(self):
         print(f"Account Holder: {self.name}, \nInitial Balance: {self.__balance}")
     def deposit(self,amount):
-        if amount < 0 :
+        if amount <= 0 :
             print("Amount Can't Below 0")
         self.__balance += amount
         print(f"Deposit: {amount}")
     def Withdraw(self, withdraw):
         if withdraw > self.__balance or withdraw < 0:
             print("Withdraw flied")
-        self.__balance - withdraw
+        self.__balance -= withdraw
         print(f"Withdrawn: {withdraw}")
     def get_balance(self):
         return f"Current Balance {self.__balance}"
