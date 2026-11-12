@@ -1,6 +1,6 @@
+import math
 
 # Task 1 — Student & Teacher Management
-
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -25,8 +25,10 @@ Student1.Student_Profile()
 Teacher1 = Teacher("Rahim", 30, "Mathematics")
 Teacher1.Teacher_Profile()
 
-# Task 2 — Secure Bank Account
 
+
+
+# Task 2 — Secure Bank Account
 class BankAccount:
     def __init__(self, name, balance):
         self.name =name
@@ -36,11 +38,13 @@ class BankAccount:
     def deposit(self,amount):
         if amount <= 0 :
             print("Amount Can't Below 0")
+            return
         self.__balance += amount
         print(f"Deposit: {amount}")
     def Withdraw(self, withdraw):
         if withdraw > self.__balance or withdraw < 0:
             print("Withdraw flied")
+            return
         self.__balance -= withdraw
         print(f"Withdrawn: {withdraw}")
     def get_balance(self):
@@ -52,8 +56,9 @@ account.deposit(500)
 account.Withdraw(300)
 print(account.get_balance())
 
-# Task 3 — Employee Salary System
 
+
+# Task 3 — Employee Salary System
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -88,7 +93,6 @@ Developer1.calculate_bonus()
 
 # Task 4 — Smart Shape Calculator
 
-import math
 class Shape:
     def area(self):
         raise NotImplementedError("Child class must implement area()")
