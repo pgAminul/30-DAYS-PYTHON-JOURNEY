@@ -1,0 +1,42 @@
+8. Day 15 Assignment — ৮০ নম্বর
+
+
+Task 1 — Smart Calculator (20)
+Lambda ব্যবহার করে তৈরি করো:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+প্রতিটি Operation আলাদা Lambda Function হবে।
+
+
+Task 2 — Employee Salary Processor (20)
+salaries = [15000, 25000, 18000, 35000, 12000, 40000]
+
+
+
+কাজ:
+- Map দিয়ে প্রত্যেক Salary-তে ১০% Bonus যোগ করবে।
+- Filter দিয়ে ২০০০০ বা তার বেশি Salary নির্বাচন করবে।
+- Final Result Print করবে।
+
+
+Task 3 — Student Information Merger (20)
+names = ["Rahim", "Karim", "Sakib", "Nabil"]ages = [22, 25, 21, 24]departments = ["IT", "HR", "IT", "Finance"]
+
+
+
+Zip ব্যবহার করে তিনটি List একত্রিত করে প্রত্যেক Student-এর তথ্য Print করবে।
+
+
+
+Task 4 — Smart Student Result Analyzer (20)
+students = [    ("Rahim", 85),    ("Karim", 35),    ("Sakib", 72),    ("Nabil", 90),    ("Hasan", 45),    ("Jamal", 28)]
+
+
+
+কাজ:
+1. Filter দিয়ে Pass Student বের করবে।
+2. Map দিয়ে প্রত্যেকের Grade তৈরি করবে।
+3. Lambda দিয়ে Highest Marks পাওয়া Student বের করবে।
+4. Final Result সুন্দরভাবে Print করবে।
